@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Chris",
+        "portrait": "img/chris.jpg",
+        "location": "Crystal City"
+    },
+    {
+        "name": "John",
+        "portrait": "img/john.jpg",
+        "location": ""
+    },
+    {
+        "name": "Sean",
+        "portrait": "img/sean.jpg",
+        "location": "Vacation"
+    },
+    {
+        "name": "Sam",
+        "portrait": "img/sam.jpg",
+        "location": "Adfero"
+    }
+]

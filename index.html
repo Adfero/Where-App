@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en"  ng-app="whereApp">
+<head>
+  <meta charset="utf-8">
+  <title>Where?</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="js/controllers.js"></script> 
+</head>
+<body ng-controller="DevTeam">
+	<header>
+		<h1>Where?</h1>
+	</header>
+	<section>
+		<ul>
+			<li ng-repeat="person in people">
+				{{person.users.name}}
+				<!-- <img src="{{person.portrait}}" alt="{{person.name}}" />
+				<p>{{person.location}}</p> -->
+			</li>
+		</ul>
+	</section>
+</body>
+</html>
